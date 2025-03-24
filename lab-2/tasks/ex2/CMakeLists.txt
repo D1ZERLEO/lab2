@@ -1,0 +1,1 @@
+add_library(ex2 ex2.cpp ex2.hpp)

@@ -1,0 +1,8 @@
+add_executable(ex1_test ex1_test.cpp)
+add_executable(ex2_test ex2_test.cpp)
+add_executable(ex3_test ex3_test.cpp)
+add_executable(ex4_test ex4_test.cpp)
+target_link_libraries(ex1_test ex1)
+target_link_libraries(ex2_test ex2)
+target_link_libraries(ex3_test ex3)
+target_link_libraries(ex4_test ex4)
